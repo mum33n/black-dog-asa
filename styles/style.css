@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i&display=swap');
+*{
+    font-family: 'Poppins' !important;
+}
+nav{
+    /* padding: 22px 30px !important; */
+    background-color: #000 !important;
+}
+.navbar-brand *{
+    font-size: 25px!important;
+    font-family: 'Poppins' !important;
+    font-weight: bolder;
+}
+.navbar-toggler .bar{
+    display: block;
+    background-color: #fff;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+}
+.white{
+    color: #000;
+}
+/* .token{
+    height: 520px;
+    overflow: hidden;
+} */
+.max{
+    max-width: 560px;
+}
+#chartdiv:nth-child(1):nth-child(1):nth-child(1):nth-child(2){
+    display: none;
+}
+
+body{
+    background: #ffee00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFEE00,#000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFEE00,#000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden !important;
+    width: 100%;
+}
+.banner, .p-90{
+    padding: 90px 0;
+}
+p{
+    color: #000;
+    font-family: 'Poppins' !important;
+    font-weight: 500;
+}
+.heading{
+    font-family: 'Poppins' !important;
+    font-weight: 800;
+    color: #000;
+}
+@media screen and (max-width:968px){
+    nav{
+        display: relative;
+    }
+    .nav-container{
+        position: absolute;
+        display:grid;
+        grid-template-columns: auto;
+        margin:2px auto;
+        justify-content: center;
+        width: 100%;
+        top:75px;
+        right: 0;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    .nav-btn, .nav-item1{
+        margin-bottom: 5px;
+        text-align: center;
+        display: table;
+    }
+    .nav-container.active{
+        background-color: #070727;
+        opacity: 1;
+        right: 0;
+        transition: all 0.5s ease;
+    }
+    .menu-toggle .bar{
+        display: block;
+    }
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .step-inner{
+        font-weight: 200;
+    }
+}

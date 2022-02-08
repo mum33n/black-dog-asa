@@ -1,0 +1,14 @@
+{
+  "name": "blackdog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rmdir /s dist ",
+    "build:css": "node-sass --include-path scss css/roadmap.scss css/roadmap.css",
+    "build:web": "parcel build index.html --public-url ./",
+    "build": "npm run clean && parcel build index.html --public-url ./"
+  },
+  "author": "",
+  "license": "ISC"
+}
