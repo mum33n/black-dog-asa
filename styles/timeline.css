@@ -4,6 +4,7 @@
 }
 .timeline *{
   color: #fff;
+  word-wrap: break-word;
 }
 
 .timeline ul li {
