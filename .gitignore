@@ -1,3 +1,4 @@
 /bootstrap-4.0.0-dist
 /dist
 /.parcel.cache
+.vscode/settings.json
