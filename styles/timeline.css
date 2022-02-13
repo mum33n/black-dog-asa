@@ -1,7 +1,6 @@
 .timeline ul {
   background: transparent;
   padding: 50px 0;
-  overflow-x: hidden;
 }
 .timeline *{
   color: #fff;
@@ -213,4 +212,7 @@ time {
 .page-footer a {
   display: flex;
   margin-left: 4px;
+}
+.timeline{
+  overflow-x: hidden;
 }
