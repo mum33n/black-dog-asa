@@ -33,7 +33,7 @@
   position: relative;
   bottom: 0;
   width: 400px;
-  padding: 15px;
+  padding: 15px 20px 15px 15px;
   word-wrap: break-word;
   background-clip: border-box;
   background: #000;
