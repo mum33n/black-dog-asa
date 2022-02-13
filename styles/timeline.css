@@ -34,6 +34,8 @@
   bottom: 0;
   width: 400px;
   padding: 15px;
+  word-wrap: break-word;
+  background-clip: border-box;
   background: #000;
 }
 
